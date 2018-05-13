@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Sungun Park</title>
-    <link>http://z3moon.github.io/posts/</link>
+    <link>//z3moon.github.io/posts/</link>
     <description>Recent content in Posts on Sungun Park</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 12 May 2018 00:25:55 -0700</lastBuildDate>
     
-	<atom:link href="http://z3moon.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="//z3moon.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>My First Post</title>
-      <link>http://z3moon.github.io/posts/my-first-post/</link>
+      <link>//z3moon.github.io/posts/my-first-post/</link>
       <pubDate>Sat, 12 May 2018 00:25:55 -0700</pubDate>
       
-      <guid>http://z3moon.github.io/posts/my-first-post/</guid>
+      <guid>//z3moon.github.io/posts/my-first-post/</guid>
       <description>TODO: put syntax highlighter here  hm..</description>
     </item>
     
