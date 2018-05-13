@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Sungun Park</title>
-    <link>/</link>
-    <description>Recent content on Sungun Park</description>
+    <title>Posts on Sungun Park</title>
+    <link>/posts/</link>
+    <description>Recent content in Posts on Sungun Park</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 12 May 2018 00:25:55 -0700</lastBuildDate>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,15 +18,6 @@
       
       <guid>/posts/my-first-post/</guid>
       <description>TODO: put syntax highlighter here  hm..</description>
-    </item>
-    
-    <item>
-      <title>About Sungun</title>
-      <link>/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/about/</guid>
-      <description>Sungun Park</description>
     </item>
     
   </channel>
