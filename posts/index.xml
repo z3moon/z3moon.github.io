@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Sungun Park</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 12 May 2018 00:25:55 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 13 May 2018 21:55:41 -0700</lastBuildDate>
     
 	<atom:link href="//z3moon.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>한국말로</title>
+      <link>//z3moon.github.io/posts/hey/</link>
+      <pubDate>Sun, 13 May 2018 21:55:41 -0700</pubDate>
+      
+      <guid>//z3moon.github.io/posts/hey/</guid>
+      <description>한국어로 작성하면 모바일에서 어떻게 나올까?</description>
+    </item>
     
     <item>
       <title>My First Post</title>
