@@ -3,22 +3,18 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>//z3moon.github.io/posts/second-korean-post/</loc>
+    <loc>//z3moon.github.io/blog/test-korean2/</loc>
     <lastmod>2018-05-13T22:36:07-07:00</lastmod>
   </url>
   
   <url>
-    <loc>//z3moon.github.io/posts/hey/</loc>
-    <lastmod>2018-05-13T21:55:41-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>//z3moon.github.io/posts/my-first-post/</loc>
-    <lastmod>2018-05-12T00:25:55-07:00</lastmod>
-  </url>
-  
-  <url>
     <loc>//z3moon.github.io/about/</loc>
+  </url>
+  
+  <url>
+    <loc>//z3moon.github.io/blog/</loc>
+    <lastmod>2018-05-13T22:36:07-07:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -27,19 +23,13 @@
   </url>
   
   <url>
-    <loc>//z3moon.github.io/posts/</loc>
-    <lastmod>2018-05-13T22:36:07-07:00</lastmod>
+    <loc>//z3moon.github.io/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>//z3moon.github.io/</loc>
     <lastmod>2018-05-13T22:36:07-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>//z3moon.github.io/tags/</loc>
     <priority>0</priority>
   </url>
   
