@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>z3moon</title>
-    <link>//z3moon.github.io/</link>
-    <description>Recent content on z3moon</description>
+    <title>Themes on z3moon</title>
+    <link>//z3moon.github.io/tags/themes/</link>
+    <description>Recent content in Themes on z3moon</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sun, 08 Jan 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="//z3moon.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="//z3moon.github.io/tags/themes/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -24,15 +24,6 @@ Deleted text
 This is text with inline math $\sum_{n=1}^{\infty} 2^{-n} = 1$ and with math blocks:
 $$ \sum_{n=1}^{\infty} 2^{-n} = 1 $$
    Heading Another heading     text text   text text   text text     Block quotes are written like so.</description>
-    </item>
-    
-    <item>
-      <title>About Sungun</title>
-      <link>//z3moon.github.io/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>//z3moon.github.io/about/</guid>
-      <description>Sungun Park</description>
     </item>
     
   </channel>

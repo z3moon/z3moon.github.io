@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    $('sup.footnote-ref a').mouseenter(on_footnote_mouse_enter);
+    $('a.footnote').mouseenter(on_footnote_mouse_enter);
 });
 
 function on_footnote_mouse_enter(event) {

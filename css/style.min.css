@@ -39,7 +39,7 @@ a:hover {
 }
 
 p {
-    margin: 1.6rem 0 1.6rem 0
+    margin: 0 0 0 0
 }
 
 p a {
@@ -416,9 +416,17 @@ img {
     float: left
 }
 
-.JSpopup {
-    position: absolute;
-    color: #000;
-    z-index: 20;
-    overflow: hidden;
+/* table of contents */
+div#toc {
+  min-width: 2em;
+  max-width: 40em;
+  padding: 1em;
+  border: 2px dotted #000;
+  border-left: 0;
+  border-right: 0;
+}
+
+nav#TableOfContents ul {
+  margin: 0 0 0 0;
+  padding: 0 0 0 30px;
 }
