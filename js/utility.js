@@ -16,11 +16,11 @@ function on_footnote_mouse_enter(event) {
     }
 
     // position() does not support hidden elements
-    $fndiv.show().position({
-        my: 'left top',
-        at: 'left bottom',
-        of: this
-    }).hide();
+    // $fndiv.show().position({
+    //     my: 'left top',
+    //     at: 'left bottom',
+    //     of: this
+    // }).hide();
 
     // obtain footnote content.
     var fn = $('a' + this.hash);        // hash includes '#' at the beginning.
