@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wikis on z3moon</title>
+    <link>//z3moon.github.io/wiki/</link>
+    <description>Recent content in Wikis on z3moon</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 19 May 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="//z3moon.github.io/wiki/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>첫번째 위키 페이지</title>
+      <link>//z3moon.github.io/wiki/first-wiki-page%EC%9C%84%ED%82%A4/</link>
+      <pubDate>Sat, 19 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>//z3moon.github.io/wiki/first-wiki-page%EC%9C%84%ED%82%A4/</guid>
+      <description>첫번째 테스트 위키</description>
+    </item>
+    
+  </channel>
+</rss>
