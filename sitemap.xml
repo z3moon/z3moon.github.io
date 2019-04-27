@@ -3,17 +3,20 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>//z3moon.github.io/wiki/</loc>
+    <lastmod>2018-05-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//z3moon.github.io/</loc>
+    <lastmod>2018-05-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>//z3moon.github.io/wiki/first-wiki-page%EC%9C%84%ED%82%A4/</loc>
     <lastmod>2018-05-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>//z3moon.github.io/blog/hugo-template-primer/</loc>
-    <lastmod>2017-01-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>//z3moon.github.io/about/</loc>
   </url>
   
   <url>
@@ -24,11 +27,6 @@
   
   <url>
     <loc>//z3moon.github.io/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>//z3moon.github.io/tags/development/</loc>
     <lastmod>2017-01-08T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -40,13 +38,24 @@
   </url>
   
   <url>
-    <loc>//z3moon.github.io/tags/go/</loc>
+    <loc>//z3moon.github.io/blog/hugo-template-primer/</loc>
+    <lastmod>2017-01-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//z3moon.github.io/tags/</loc>
     <lastmod>2017-01-08T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>//z3moon.github.io/tags/golang/</loc>
+    <loc>//z3moon.github.io/tags/development/</loc>
+    <lastmod>2017-01-08T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//z3moon.github.io/tags/go/</loc>
     <lastmod>2017-01-08T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -58,7 +67,7 @@
   </url>
   
   <url>
-    <loc>//z3moon.github.io/tags/</loc>
+    <loc>//z3moon.github.io/tags/golang/</loc>
     <lastmod>2017-01-08T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -76,15 +85,7 @@
   </url>
   
   <url>
-    <loc>//z3moon.github.io/wiki/</loc>
-    <lastmod>2018-05-19T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>//z3moon.github.io/</loc>
-    <lastmod>2018-05-19T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <loc>//z3moon.github.io/about/</loc>
   </url>
   
 </urlset>

@@ -5,6 +5,7 @@
     <link>//z3moon.github.io/categories/</link>
     <description>Recent content in Categories on z3moon</description>
     <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 08 Jan 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="//z3moon.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
@@ -19,7 +20,7 @@
     </item>
     
     <item>
-      <title>Golang</title>
+      <title>golang</title>
       <link>//z3moon.github.io/categories/golang/</link>
       <pubDate>Sun, 08 Jan 2017 00:00:00 +0000</pubDate>
       
