@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>z3moon</title>
-    <link>//z3moon.github.io/</link>
-    <description>Recent content on z3moon</description>
+    <title>cpp on z3moon</title>
+    <link>//z3moon.github.io/tags/cpp/</link>
+    <description>Recent content in cpp on z3moon</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sat, 20 Apr 2019 16:17:19 -0700</lastBuildDate>
     
-	<atom:link href="//z3moon.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="//z3moon.github.io/tags/cpp/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -17,24 +17,6 @@
       
       <guid>//z3moon.github.io/blog/calling-convention/</guid>
       <description>C 언어에서 함수를 호출하는 규약에 대해 설명 종류 함수 호출규약에는 다음의 것들이 있다. Calling Convention Argument Passing Stack Maintenance Name Decoration (C only) Notes __cdecl Right to left. Calling function pops arguments from the stack. Underscore prefixed to function names. Ex: _Foo. This is the</description>
-    </item>
-    
-    <item>
-      <title>첫번째 위키 페이지</title>
-      <link>//z3moon.github.io/wiki/first-wiki-page%EC%9C%84%ED%82%A4/</link>
-      <pubDate>Sat, 19 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>//z3moon.github.io/wiki/first-wiki-page%EC%9C%84%ED%82%A4/</guid>
-      <description>첫번째 테스트 위키</description>
-    </item>
-    
-    <item>
-      <title>About Sungun</title>
-      <link>//z3moon.github.io/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>//z3moon.github.io/about/</guid>
-      <description>Sungun Park</description>
     </item>
     
   </channel>
