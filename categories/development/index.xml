@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>development on z3moon</title>
-    <link>//z3moon.github.io/categories/development/</link>
+    <link>https://z3moon.github.io/categories/development/</link>
     <description>Recent content in development on z3moon</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sat, 20 Apr 2019 16:17:19 -0700</lastBuildDate>
     
-	<atom:link href="//z3moon.github.io/categories/development/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://z3moon.github.io/categories/development/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Calling Convention</title>
-      <link>//z3moon.github.io/blog/calling-convention/</link>
+      <link>https://z3moon.github.io/blog/calling-convention/</link>
       <pubDate>Sat, 20 Apr 2019 16:17:19 -0700</pubDate>
       
-      <guid>//z3moon.github.io/blog/calling-convention/</guid>
+      <guid>https://z3moon.github.io/blog/calling-convention/</guid>
       <description>C 언어에서 함수를 호출하는 규약에 대해 설명 종류 함수 호출규약에는 다음의 것들이 있다. Calling Convention Argument Passing Stack Maintenance Name Decoration (C only) Notes __cdecl Right to left. Calling function pops arguments from the stack. Underscore prefixed to function names. Ex: _Foo. This is the</description>
     </item>
     

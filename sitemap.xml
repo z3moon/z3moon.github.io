@@ -3,48 +3,48 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>//z3moon.github.io/blog/</loc>
+    <loc>https://z3moon.github.io/blog/</loc>
     <lastmod>2019-04-20T16:17:19-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>//z3moon.github.io/blog/calling-convention/</loc>
+    <loc>https://z3moon.github.io/blog/calling-convention/</loc>
     <lastmod>2019-04-20T16:17:19-07:00</lastmod>
   </url>
   
   <url>
-    <loc>//z3moon.github.io/categories/</loc>
-    <lastmod>2019-04-20T16:17:19-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>//z3moon.github.io/tags/</loc>
+    <loc>https://z3moon.github.io/categories/</loc>
     <lastmod>2019-04-20T16:17:19-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>//z3moon.github.io/tags/cpp/</loc>
+    <loc>https://z3moon.github.io/tags/</loc>
     <lastmod>2019-04-20T16:17:19-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>//z3moon.github.io/categories/development/</loc>
+    <loc>https://z3moon.github.io/tags/cpp/</loc>
     <lastmod>2019-04-20T16:17:19-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>//z3moon.github.io/</loc>
+    <loc>https://z3moon.github.io/categories/development/</loc>
     <lastmod>2019-04-20T16:17:19-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>//z3moon.github.io/about/</loc>
+    <loc>https://z3moon.github.io/</loc>
+    <lastmod>2019-04-20T16:17:19-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://z3moon.github.io/about/</loc>
   </url>
   
 </urlset>
