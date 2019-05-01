@@ -3,12 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://z3moon.github.io/blog/</loc>
-    <lastmod>2012-10-08T22:55:43-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://z3moon.github.io/categories/</loc>
     <lastmod>2012-10-08T22:55:43-07:00</lastmod>
     <priority>0</priority>
@@ -27,8 +21,14 @@
   </url>
   
   <url>
-    <loc>https://z3moon.github.io/blog/loop-unrolling/</loc>
+    <loc>https://z3moon.github.io/loopunrolling/</loc>
     <lastmod>2012-10-08T22:55:43-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://z3moon.github.io/post/</loc>
+    <lastmod>2012-10-08T22:55:43-07:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -50,7 +50,7 @@
   </url>
   
   <url>
-    <loc>https://z3moon.github.io/blog/calling-convention/</loc>
+    <loc>https://z3moon.github.io/callingconvention/</loc>
     <lastmod>2012-10-03T00:16:19-07:00</lastmod>
   </url>
   

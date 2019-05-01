@@ -5,6 +5,7 @@
     <link>https://z3moon.github.io/tags/loopunrolling/</link>
     <description>Recent content in LoopUnrolling on z3moon</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
     <lastBuildDate>Mon, 08 Oct 2012 22:55:43 -0700</lastBuildDate>
     
 	<atom:link href="https://z3moon.github.io/tags/loopunrolling/index.xml" rel="self" type="application/rss+xml" />
@@ -12,10 +13,10 @@
     
     <item>
       <title>LoopUnrolling</title>
-      <link>https://z3moon.github.io/blog/loop-unrolling/</link>
+      <link>https://z3moon.github.io/loopunrolling/</link>
       <pubDate>Mon, 08 Oct 2012 22:55:43 -0700</pubDate>
       
-      <guid>https://z3moon.github.io/blog/loop-unrolling/</guid>
+      <guid>https://z3moon.github.io/loopunrolling/</guid>
       <description>Loop Unrolling (또는 Loop Unwinding) 은 프로그램의 loop 로직을 조금 수정함으로써 속도를 향상시킬 수 있는 방법이다. loop 안의 내용을 일부 수작업으로 늘어놓는 일을 해야 하는데 이때 바이너리</description>
     </item>
     
