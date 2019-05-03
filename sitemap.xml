@@ -4,54 +4,90 @@
   
   <url>
     <loc>https://z3moon.github.io/categories/</loc>
-    <lastmod>2012-10-08T22:55:43-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://z3moon.github.io/categories/development/</loc>
-    <lastmod>2012-10-08T22:55:43-07:00</lastmod>
+    <lastmod>2019-04-30T22:55:43-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://z3moon.github.io/tags/loopunrolling/</loc>
-    <lastmod>2012-10-08T22:55:43-07:00</lastmod>
+    <lastmod>2019-04-30T22:55:43-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://z3moon.github.io/loopunrolling/</loc>
-    <lastmod>2012-10-08T22:55:43-07:00</lastmod>
+    <lastmod>2019-04-30T22:55:43-07:00</lastmod>
   </url>
   
   <url>
     <loc>https://z3moon.github.io/post/</loc>
-    <lastmod>2012-10-08T22:55:43-07:00</lastmod>
+    <lastmod>2019-04-30T22:55:43-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://z3moon.github.io/tags/</loc>
-    <lastmod>2012-10-08T22:55:43-07:00</lastmod>
+    <lastmod>2019-04-30T22:55:43-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://z3moon.github.io/</loc>
-    <lastmod>2012-10-08T22:55:43-07:00</lastmod>
+    <lastmod>2019-04-30T22:55:43-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://z3moon.github.io/tags/cpp/</loc>
-    <lastmod>2012-10-03T00:16:19-07:00</lastmod>
+    <loc>https://z3moon.github.io/categories/%EA%B0%9C%EB%B0%9C/</loc>
+    <lastmod>2019-04-30T22:55:43-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://z3moon.github.io/tags/%EC%B5%9C%EC%A0%81%ED%99%94/</loc>
+    <lastmod>2019-04-30T22:55:43-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://z3moon.github.io/callingconvention/</loc>
-    <lastmod>2012-10-03T00:16:19-07:00</lastmod>
+    <lastmod>2019-04-29T00:16:19-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://z3moon.github.io/tags/cdecl/</loc>
+    <lastmod>2019-04-29T00:16:19-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://z3moon.github.io/tags/cpp/</loc>
+    <lastmod>2019-04-29T00:16:19-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://z3moon.github.io/tags/fastcall/</loc>
+    <lastmod>2019-04-29T00:16:19-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://z3moon.github.io/tags/naked/</loc>
+    <lastmod>2019-04-29T00:16:19-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://z3moon.github.io/tags/stdcall/</loc>
+    <lastmod>2019-04-29T00:16:19-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://z3moon.github.io/tags/thiscall/</loc>
+    <lastmod>2019-04-29T00:16:19-07:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>

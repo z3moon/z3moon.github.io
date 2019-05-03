@@ -73,7 +73,7 @@
   <article>
     <header>
       <h1 class="title">LoopUnrolling</h1>
-      <h2 class="date">October 8, 2012</h2>
+      <h2 class="date">April 30, 2019</h2>
 
       
     </header>
@@ -133,7 +133,8 @@
 <ul>
 <li>프로그램 사이즈를 약간 증가시킴으로써 속도의 향상을 얻을 수 있다.</li>
 <li><a href="https://en.wikipedia.org/wiki/Branch_predictor">branch penalty</a> 를 최소화할 수 있다.</li>
-<li>loop 본문 내용이 서로간 독립적일 수 있다면1) 이들 각각을 병렬로 처리할 수 있다.</li>
+<li>loop 본문 내용이 서로간 독립적일 수 있다면 <A class='footnote' id='FNR_1' href='#FN_1'>1)</A>
+이들 각각을 병렬로 처리할 수 있다.</li>
 <li>컴파일 시점에 array 의 사이즈를 알 수 없어도 적절하게 처리할 수 있다.</li>
 </ul>
 
@@ -319,7 +320,10 @@
   
 
   
+  <hr noshade style="height:1px">
   
+    
+    <div><a id='FN_1' class='footnote' href='#FNR_1'>1)</a> <span id ='FN_1'>예를 들어 loop 본문 초반부 내용이 후반부 내용과는 별도로 수행될 수 있다던가…</span></div>
   
 </section>
 

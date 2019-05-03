@@ -6,7 +6,7 @@
     <description>Recent content in Tags on z3moon</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Mon, 08 Oct 2012 22:55:43 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 30 Apr 2019 22:55:43 -0700</lastBuildDate>
     
 	<atom:link href="https://z3moon.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,18 +14,72 @@
     <item>
       <title>LoopUnrolling</title>
       <link>https://z3moon.github.io/tags/loopunrolling/</link>
-      <pubDate>Mon, 08 Oct 2012 22:55:43 -0700</pubDate>
+      <pubDate>Tue, 30 Apr 2019 22:55:43 -0700</pubDate>
       
       <guid>https://z3moon.github.io/tags/loopunrolling/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>CPP</title>
+      <title>최적화</title>
+      <link>https://z3moon.github.io/tags/%EC%B5%9C%EC%A0%81%ED%99%94/</link>
+      <pubDate>Tue, 30 Apr 2019 22:55:43 -0700</pubDate>
+      
+      <guid>https://z3moon.github.io/tags/%EC%B5%9C%EC%A0%81%ED%99%94/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cdecl</title>
+      <link>https://z3moon.github.io/tags/cdecl/</link>
+      <pubDate>Mon, 29 Apr 2019 00:16:19 -0700</pubDate>
+      
+      <guid>https://z3moon.github.io/tags/cdecl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cpp</title>
       <link>https://z3moon.github.io/tags/cpp/</link>
-      <pubDate>Wed, 03 Oct 2012 00:16:19 -0700</pubDate>
+      <pubDate>Mon, 29 Apr 2019 00:16:19 -0700</pubDate>
       
       <guid>https://z3moon.github.io/tags/cpp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fastcall</title>
+      <link>https://z3moon.github.io/tags/fastcall/</link>
+      <pubDate>Mon, 29 Apr 2019 00:16:19 -0700</pubDate>
+      
+      <guid>https://z3moon.github.io/tags/fastcall/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>naked</title>
+      <link>https://z3moon.github.io/tags/naked/</link>
+      <pubDate>Mon, 29 Apr 2019 00:16:19 -0700</pubDate>
+      
+      <guid>https://z3moon.github.io/tags/naked/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>stdcall</title>
+      <link>https://z3moon.github.io/tags/stdcall/</link>
+      <pubDate>Mon, 29 Apr 2019 00:16:19 -0700</pubDate>
+      
+      <guid>https://z3moon.github.io/tags/stdcall/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>thiscall</title>
+      <link>https://z3moon.github.io/tags/thiscall/</link>
+      <pubDate>Mon, 29 Apr 2019 00:16:19 -0700</pubDate>
+      
+      <guid>https://z3moon.github.io/tags/thiscall/</guid>
       <description></description>
     </item>
     
