@@ -13,10 +13,10 @@
     
     <item>
       <title>Calling Convention</title>
-      <link>https://z3moon.github.io/callingconvention/</link>
+      <link>https://z3moon.github.io/calling-convention/</link>
       <pubDate>Mon, 29 Apr 2019 00:16:19 -0700</pubDate>
       
-      <guid>https://z3moon.github.io/callingconvention/</guid>
+      <guid>https://z3moon.github.io/calling-convention/</guid>
       <description>C 언어에서 함수를 호출하는 규약에 대해 설명 종류 함수 호출규약에는 다음의 것들이 있다. Calling Convention Argument Passing Stack Maintenance Name Decoration (C only) Notes __cdecl Right to left. Calling function pops arguments from the stack. Underscore prefixed to function names. Ex: _Foo. This is the</description>
     </item>
     
