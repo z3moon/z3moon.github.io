@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="ko-kr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Sungun Park">
+
+  
+  <meta name="description" content="My personal website">
+  
+
+  
+  <meta name="keywords" content="blog,developer,programming">
+  
+
+  <meta name="google-site-verification" content="R8iOYBQoLYuyZEv0gW7inBFKP2hljbkq9-ZKcCI9rms" />
+
+  <title>z3moon</title>
+  <link rel="canonical" href="https://z3moon.github.io/duffs-device/">
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Fira+Mono:400,700">
+  <link rel="stylesheet" href="//cdn.rawgit.com/necolas/normalize.css/master/normalize.css">
+  <script src="//code.jquery.com/jquery-1.12.4.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+  <link rel="stylesheet" href="https://z3moon.github.io/css/style.min.css">
+  <link rel="stylesheet" href="https://z3moon.github.io/css/footnote.css">
+
+  
+  <link rel="stylesheet" href="../css/prism-coy.css" data-noprefix />
+  <script src="../js/prism.js"></script>
+  
+
+  <script src="../js/utility.js"></script>
+  <link rel="icon" type="image/png" href="https://z3moon.github.io/images/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="https://z3moon.github.io/images/favicon-16x16.png" sizes="16x16">
+
+  
+
+  <meta name="generator" content="Hugo 0.55.2" />
+</head>
+
+<body>
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="https://z3moon.github.io/">z3moon</a>
+    
+    <ul class="navigation-list float-right">
+      
+      <li class="navigation-item">
+        <a class="navigation-link" href="../post/">Post</a>
+      </li>
+      
+      <li class="navigation-item">
+        <a class="navigation-link" href="../tags/">Tags</a>
+      </li>
+      
+      <li class="navigation-item">
+        <a class="navigation-link" href="../categories/">Categories</a>
+      </li>
+      
+      <li class="navigation-item">
+        <a class="navigation-link" href="../about/">About</a>
+      </li>
+      
+    </ul>
+    
+  </section>
+</nav>
+
+    <div class="content">
+      
+  <section class="container post">
+  <article>
+    <header>
+      <h1 class="title">Duff&#39;s Device</h1>
+      <h2 class="date">May 4, 2019</h2>
+
+      
+    </header>
+
+    
+<aside>
+  <div id="toc">
+    <p><strong>Table Of Contents</strong></p>
+    <nav id="TableOfContents">
+<ul>
+<li><a href="#일반-복사">일반 복사</a></li>
+<li><a href="#duff-s-device-복사">Duff&rsquo;s Device 복사</a></li>
+<li><a href="#퍼포먼스">퍼포먼스</a></li>
+<li><a href="#마지막으로">마지막으로</a></li>
+</ul>
+</nav>
+  </div>
+</aside>
+
+
+
+    
+
+<p>Duff&rsquo;s Device 는 메모리 복사에 사용되는 최적화 기법이다.</p>
+
+<p>1983년 12월 Lucasfilm 에서 일하던 <a href="https://en.wikipedia.org/wiki/Tom_Duff">Tom Duff</a> 가 고안하였다.</p>
+
+<p>이 기법은 흔히 알려진 <a href="../loop-unrolling">Loop Unrolling</a> 의 근간이 되었다.</p>
+
+<h1 id="일반-복사">일반 복사</h1>
+
+<p>복사기능을 하는 코드를 C 로 표현해보면 다음과 같다.</p>
+
+<pre><code class="language-cpp">void copy_byte( char* dst, char* src, int cnt )
+{
+    while ( cnt-- &gt; 0 )
+        *dst++ = *src++;
+}
+</code></pre>
+
+<p>byte 단위로 복사하는 순진한 코드이고 더 최적화할 여지는 있지만 기본적인 컨셉은 위와 같다.</p>
+
+<h1 id="duff-s-device-복사">Duff&rsquo;s Device 복사</h1>
+
+<p>Duff 가 제시한 더 빠른 복사코드이다.</p>
+
+<pre><code class="language-cpp">void copy_duff( char* dst, char* src, int cnt )
+{
+    int repeat = ( cnt + 7 ) / 8;
+ 
+    switch ( cnt % 8 )
+    {
+    case 0: do { *dst++ = *src++;
+    case 7:      *dst++ = *src++;
+    case 6:      *dst++ = *src++;
+    case 5:      *dst++ = *src++;
+    case 4:      *dst++ = *src++;
+    case 3:      *dst++ = *src++;
+    case 2:      *dst++ = *src++;
+    case 1:      *dst++ = *src++;
+            } while ( --repeat &gt; 0 );
+    }
+}
+</code></pre>
+
+<p>물론 대상 메모리가 8바이트의 배수가 아니더라도 잘 작동한다.</p>
+
+<p>위 코드는 C 언어의 다음 2가지 특징으로 인해 정상적으로 작동된다.</p>
+
+<ol>
+<li>switch 구문의 느슨한 명세. case 라벨은 다른 어떠한 구문의 앞에 prefix 형태로 존재해도 문법적으로 유효하다는 점.</li>
+<li>C 언어에서 loop 의 중간부분으로 jump 할 수 있는 기능.</li>
+</ol>
+
+<h1 id="퍼포먼스">퍼포먼스</h1>
+
+<p>테스트를 통해 이 둘의 퍼포먼스를 비교해 보았다.</p>
+
+<p>256 MB 의 메모리를 복사하는데 걸린 시간을 측정하였으며, i5 + 4GB ram + Windows7 64bit 머신에서 Release 로 빌드한 결과이다.</p>
+
+<table>
+<thead>
+<tr>
+<th align="left">종류</th>
+<th align="left">시간 (단위:ms)</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="left">일반 복사</td>
+<td align="left">347.66</td>
+</tr>
+
+<tr>
+<td align="left">Duff&rsquo;s Device</td>
+<td align="left">174.86</td>
+</tr>
+</tbody>
+</table>
+
+<p>Duff&rsquo; Device 가 대략 2배 빠르게 나타났다.</p>
+
+<p>Duff 의 코드는 Loop Unrolling 을 통해 코드상 branch 되는 횟수가 많이 줄었으며 (이 부분이 속도 향상에 가장 큰 영향을 미친다.) switch-case 문의 꼼수로 나머지reminder 를 심플하게 처리한다.</p>
+
+<h1 id="마지막으로">마지막으로</h1>
+
+<p>위에서 소개한 Duff&rsquo;s Device 가 가장 빠른 복사 알고리즘은 아니다.</p>
+
+<p>한 예로, 위에 소개한 <strong>일반복사</strong> 를 4byte 버전으로 수정하였더니 125.22 ms 로 Duff&rsquo;s Device 보다도 빨랐다. 이 마저도 Loop Unrolling 을 하면 더 빨라질 수도 있다. <A class='footnote' id='FNR_1' href='#FN_1'>1)</A>
+</p>
+
+<p>Duff&rsquo;s Device 의 사용법은 문법적으로 많은 논란의 대상이 되어왔다. 그리고 올바르게 최적화해주지 않는 컴파일러를 거치면 속도가 느려질 수도 있다.</p>
+
+<p>따라서 Duff&rsquo;s Device 복사를 그대로 사용하기 보다는 이 테크닉을 가능케 하는 언어적 특성을 이해하고 활용할 만한 곳을 찾아보는 것이 더 좋다고 생각한다.</p>
+
+<p>대신 활용하기 전에는 반드시 대상의 아키텍쳐, 최적화 레벨, 컴파일러를 고려하여 꼼꼼한 테스트 후, 안정적이고 더 빠르다는 확신이 있을때만 사용되어져야 하겠다.</p>
+
+  </article>
+
+  <br/>
+
+  
+      <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "z3moon" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+  
+
+  
+  <hr noshade style="height:1px">
+  
+    
+    <div><a id='FN_1' class='footnote' href='#FNR_1'>1)</a> <span id ='FN_1'>C 로 구현된 메모리 복사는 4byte Loop Unrolling 을 하더라도 C built-in memcpy 보다는 느리다. SSE 로 메모리복사를 구현하면 C built-in memcpy 보다 속도가 빨라질 수 있다.</span></div>
+  
+</section>
+
+
+    </div>
+    <footer class="footer">
+  <section class="container">
+     
+  </section>
+</footer>
+
+  </main>
+  
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-139191201-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+</body>
+</html>
