@@ -6,10 +6,19 @@
     <description>Recent content on z3moon</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Sat, 04 May 2019 21:42:46 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 05 May 2019 21:38:34 -0700</lastBuildDate>
     
 	<atom:link href="https://z3moon.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Software Prefetch</title>
+      <link>https://z3moon.github.io/software-prefetch/</link>
+      <pubDate>Sun, 05 May 2019 21:38:34 -0700</pubDate>
+      
+      <guid>https://z3moon.github.io/software-prefetch/</guid>
+      <description>메모리 최적화의 목적은 수행에 필요한 최소량의 메모리(값)를 가능한 빠르게 전달하는 것이다. 따라서 가능한 cache hits 를 최대화 하기 위해 데이터구조와 메모리버퍼를 주</description>
+    </item>
     
     <item>
       <title>Duff&#39;s Device</title>
